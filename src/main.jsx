@@ -1,9 +1,9 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {CartApp} from "./CartApp.jsx";
+import {CatalogApp} from "./CatalogApp.jsx";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CartApp />
+    <CatalogApp />
   </React.StrictMode>,
 )
