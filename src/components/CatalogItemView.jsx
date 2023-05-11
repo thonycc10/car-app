@@ -28,6 +28,6 @@ CartItemView.propTypes = {
     name: PropTypes.string,
     description: PropTypes.string,
     price: PropTypes.number,
-    handler: PropTypes.object
+    handler: PropTypes.func
 }
 

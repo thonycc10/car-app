@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {getProducts} from "../productService.js";
+import {getProducts} from "../services/productService.js";
 import {CartItemView} from "./CatalogItemView.jsx";
 import PropTypes from "prop-types";
 
@@ -26,5 +26,5 @@ export const CatalogView = ({handler}) => {
 }
 
 CatalogView.propTypes = {
-    handler: PropTypes.object
+    handler: PropTypes.func
 }
