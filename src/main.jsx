@@ -1,9 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import {CatalogApp} from "./CatalogApp.jsx";
+import {BrowserRouter} from "react-router-dom";
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <CatalogApp />
+      <BrowserRouter>
+          <CatalogApp />
+      </BrowserRouter>
   </React.StrictMode>,
 )
